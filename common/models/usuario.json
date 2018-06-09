@@ -1,0 +1,28 @@
+{
+  "name": "usuario",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nombre": {
+      "type": "string",
+      "required": true,
+      "default": "Sin nombre"
+    },
+    "clave": {
+      "type": "string",
+      "required": true
+    },
+    "permiso": {
+      "type": "object",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {    
+  },
+  "acls": [],
+  "methods": {}
+}

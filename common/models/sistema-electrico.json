@@ -1,0 +1,23 @@
+{
+  "name": "sistema_electrico",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "planta": {
+      "type": "object",
+      "required": true
+    },
+    "objects": {
+      "type": [
+        "object"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
