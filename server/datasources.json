@@ -8,5 +8,12 @@
     "name": "db",
     "user": "",
     "connector": "mongodb"
+  },
+  "files": {
+    "name": "files",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./server/files",
+    "nameConflict": "makeUnique"
   }
 }
