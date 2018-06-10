@@ -1,12 +1,8 @@
 {
   "db": {
-    "host": "localhost",
-    "port": 27017,
-    "url": "",
-    "database": "domotica",
-    "password": "",
-    "name": "db",
-    "user": "",
-    "connector": "mongodb"
+   
+    "url": "mongodb://darwin:darwin123@ds161580.mlab.com:61580/domobdd",
+    "connector": "loopback-connector-mongodb"
   }
 }
+
