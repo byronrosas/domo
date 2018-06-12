@@ -1,8 +1,21 @@
 {
   "db": {
    
+    "host": "localhost",
+    "port": 27017,
     "url": "mongodb://darwin:darwin123@ds161580.mlab.com:61580/domobdd",
-    "connector": "loopback-connector-mongodb"
+    "database": "domobdd",
+    "password": "darwin123",
+    "name": "db",
+    "user": "darwin",
+    "connector": "mongodb"
+  },
+  "files": {
+    "name": "files",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./server/files",
+    "nameConflict": "makeUnique"
   }
 }
 

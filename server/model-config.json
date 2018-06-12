@@ -54,5 +54,13 @@
   "sistema_electrico": {
     "dataSource": "db",
     "public": true
+  },
+  "container": {
+    "dataSource": "files",
+    "public": true
+  },
+  "role": {
+    "dataSource": "db",
+    "public": true
   }
 }

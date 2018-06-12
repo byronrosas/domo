@@ -1,21 +1,11 @@
 {
-  "name": "sistema_control_accesos",
-  "base": "PersistedModel",
+  "name": "container",
+  "base": "Model",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
-  "properties": {
-    "planta": {
-      "type": "object",
-      "required": true
-    },
-    "objects": {
-      "type": [
-        "object"
-      ]
-    }
-  },
+  "properties": {},
   "validations": [],
   "relations": {},
   "acls": [

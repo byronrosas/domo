@@ -28,13 +28,20 @@
     }
   },
   "validations": [],
-  "relations": {
-    "usuarios": {
-      "type": "hasMany",
-      "model": "usuario",
-      "foreignKey": "responsable"
+  "relations": {},
+  "acls": [
+    {
+      "accessType": "WRITE",
+      "principalType": "ROLE",
+      "principalId": "Tecnico",
+      "permission": "DENY"
+    },
+    {
+      "accessType": "EXECUTE",
+      "principalType": "ROLE",
+      "principalId": "Tecnico",
+      "permission": "DENY"
     }
-  },
-  "acls": [],
+  ],
   "methods": {}
 }

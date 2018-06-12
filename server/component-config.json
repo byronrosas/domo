@@ -2,5 +2,17 @@
   "loopback-component-explorer": {
     "mountPath": "/explorer",
     "generateOperationScopedModels": true
+  },
+  "loopback-component-role-user": {
+    "enabled": true,
+    "cached": 0,
+    "role": "$user",
+    "userModel": "User",
+    "roleIdFieldName": "name",
+    "rolesFieldName": "roles",
+    "permsFieldName": "_perms",
+    "roleRefsFieldName": "_roleRefs",
+    "models": [],
+    "operations": []
   }
 }
