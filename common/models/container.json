@@ -24,7 +24,7 @@
     {
       "accessType": "*",
       "principalType": "ROLE",
-      "principalId": "Supervisors",
+      "principalId": "Supervisor",
       "permission": "ALLOW"
     },
     {
