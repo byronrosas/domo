@@ -19,11 +19,6 @@
       "model": "role",
       "foreignKey": "principalId",
       "through": "RoleMapping"
-    },
-    "alarmasGeneradas": {
-      "type": "hasMany",
-      "model": "alarmas_generadas",
-      "foreignKey": "responsableId"
     }
   },
   "acls": [
